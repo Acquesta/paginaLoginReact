@@ -1,0 +1,55 @@
+body{
+  background-color: #282c34;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+}
+
+.cardLogin {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  height: auto;
+  margin-top: 5rem;
+  padding: 2rem;
+  color: #fff;
+}
+
+h1{
+  margin: .8rem 0;
+}
+
+.cardInputs{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
+.cardInputs input{
+  padding: 0.8rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  background-color: #282c34;
+  color: #fff;
+  border: none ;
+}
+
+.cardButton{
+  margin: 0 2rem;
+}
+
+.cardButton button{
+  width: 100%;
+  margin-top: 1rem ;
+  padding: 0.8rem;
+  border-radius: 5px;
+  background-color: #282c34;
+  border: none;
+  color: #fff;
+}
